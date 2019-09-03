@@ -1,4 +1,11 @@
-# Node setup in Ubuntu to allow you to use node cli's packages
+# Node setup in Ubuntu to allow you to use node cli's packages commands
+Follow this steps if you getting the below message on the Ubuntu terminal when trying to run node cli's commands
+```bash
+$ ng --help
+The program 'ng' is currently not installed. You can install it by typing:
+sudo apt install ng-common
+```
+
 Path known
 Assuming you have a global modules set up for npm (by default ~/.node_modules_global)
 $ npm prefix -g
