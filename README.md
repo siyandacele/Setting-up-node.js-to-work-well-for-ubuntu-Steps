@@ -8,8 +8,9 @@ curl https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
 sudo apt-add-repository "deb https://deb.nodesource.com/node_13.x $(lsb_release -sc) main"
 sudo apt-get update
 sudo apt-get install nodejs
-This is for the latest (at time of writing) Nodejs version 13. Other versions can also be gotten with a simple change to the repo URL - consult nodesource.com documentation for details.
 ```
+This is for the latest (at time of writing) Nodejs version 13. Other versions can also be gotten with a simple change to the repo URL - consult nodesource.com documentation for details.
+
 
 # Node setup in Ubuntu to allow you to use node cli's packages command
 Follow this steps if you getting the below message on the Ubuntu terminal when trying to run node cli's commands
