@@ -18,8 +18,8 @@ This is for the latest (at time of writing) Nodejs version 13. Other versions ca
 
 To minimize the chance of permissions errors, you can configure npm to use a different directory. In this example, you will create and use hidden directory in your home directory.
 
-...Back up your computer.
-...On the command line, in your home directory, create a directory for global installations
+1. Back up your computer.
+2. On the command line, in your home directory, create a directory for global installations
 
 ```
 mkdir ~/.npm-global
@@ -27,7 +27,7 @@ npm config set prefix '~/.npm-global'
 export PATH=~/.npm-global/bin:$PATH
 source ~/.profile
 ```
-...Now to test your new configuration, install a package globally without using sudo:
+3. Now to test your new configuration, install a package globally without using sudo:
 ```
 npm install -g jshint
 ```
