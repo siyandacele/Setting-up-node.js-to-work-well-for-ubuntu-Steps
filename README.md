@@ -1,3 +1,16 @@
+# Let begin with installing node on ubuntu (Documenting my struggle setting up ubuntu)
+## Generally speaking, loading arbitrary data from a URL into a root shell session is not a good idea and I wish people would stop peddling it as a solution for everything - "Please just run this script".
+
+As an alternative, here's the "Ubuntu Way" of doing the same, where you can see how the system is being updated and know what repositories and what keys are added to your system configuration:
+
+```
+curl https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+sudo apt-add-repository "deb https://deb.nodesource.com/node_13.x $(lsb_release -sc) main"
+sudo apt-get update
+sudo apt-get install nodejs
+This is for the latest (at time of writing) Nodejs version 13. Other versions can also be gotten with a simple change to the repo URL - consult nodesource.com documentation for details.
+```
+
 # Node setup in Ubuntu to allow you to use node cli's packages command
 Follow this steps if you getting the below message on the Ubuntu terminal when trying to run node cli's commands
 ```bash
