@@ -1,5 +1,4 @@
-# Let begin with installing node on ubuntu 
-(Documenting my struggle setting up ubuntu)
+# Let begin with installing node on ubuntu (Documenting my struggle setting up ubuntu)
 ==========================================
 ## (1) Generally speaking, loading arbitrary data from a URL into a root shell session is not a good idea and I wish people would stop peddling it as a solution for everything - "Please just run this script".
 
